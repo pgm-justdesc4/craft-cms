@@ -1,0 +1,22 @@
+dateModified: 1730321733
+email:
+  fromEmail: justin.descan@student.arteveldehs.be
+  fromName: 'High Bass Audio'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    7ba4af42-140a-4814-a0c1-2466f2442902: 'High Bass Audio' # High Bass Audio
+    35456dd0-f6a1-4169-85db-ea0fde817d01: 'High Bass Audio' # High Bass Audio
+system:
+  edition: solo
+  live: true
+  name: 'High Bass Audio'
+  schemaVersion: 5.3.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

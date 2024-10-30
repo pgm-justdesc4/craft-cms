@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: nl-BE
+name: 'High Bass Audio'
+primary: true
+siteGroup: 35456dd0-f6a1-4169-85db-ea0fde817d01 # High Bass Audio
+sortOrder: 1
