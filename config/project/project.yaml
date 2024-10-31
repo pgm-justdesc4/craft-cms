@@ -1,12 +1,30 @@
-dateModified: 1730321733
+dateModified: 1730378474
 email:
   fromEmail: justin.descan@student.arteveldehs.be
   fromName: 'High Bass Audio'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: false
+    name: images
+    settings:
+      path: '%BASE_UPLOAD_PATH%'
+    type: craft\fs\Local
+    url: null
 meta:
   __names__:
+    4f23b27d-151c-4030-9ed0-51b741ba76b5: images # images
+    5b2296a4-9ae3-4221-9ee5-306c01962bc7: shortDescription # shortDescription
+    5f908a8d-9ffb-4f97-a85a-9174210c5cea: price # price
+    6e4fa518-4f0a-4c4f-af04-077a0b7d2b5c: Product # Product
     7ba4af42-140a-4814-a0c1-2466f2442902: 'High Bass Audio' # High Bass Audio
+    9c898f0e-b857-4de1-875e-80cfc1fb9482: 'Public Schema' # Public Schema
+    37a0e5a2-c0de-465c-ade2-eeba0f5298fc: Uploads # Uploads
+    0672edec-34b9-46f5-b93d-cccb912b32f7: image # image
+    917c8b70-b496-4d6f-810a-d62500df50d7: Products # Products
+    04755d67-9224-46e2-8e98-caa23eab7227: description # description
     35456dd0-f6a1-4169-85db-ea0fde817d01: 'High Bass Audio' # High Bass Audio
+    d450168d-29ee-4095-9759-f40e2d4c6ef6: shortDescription # shortDescription
 system:
   edition: solo
   live: true
