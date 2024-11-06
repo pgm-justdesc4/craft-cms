@@ -5,12 +5,19 @@
 
 {% block body %}
     <div class="container music">
-        <h1>Music</h1>
+        <h1>Discover our sound</h1>
 
         <ul>
             {% for entry in entries %}
                 <li>
-                    <a href="{{ entry.url }}">{{ entry.title }}</a>
+                    <a href="{{ entry.url }}">
+                        <figure>
+                            <img src="{{ entry.image.one().getUrl('small') }}" alt="{{ entry.image.one().title }}">
+                        </figure>
+                        <p>
+                            {{ entry.title }}
+                        </p>
+                    </a>
                 </li>
             {% endfor %}
         </ul>
