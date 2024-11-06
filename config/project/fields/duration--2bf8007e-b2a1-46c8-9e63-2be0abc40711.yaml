@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: duration
+instructions: null
+name: Duration
+searchable: false
+settings:
+  max: '10:00'
+  min: '00:00'
+  minuteIncrement: 5
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Time

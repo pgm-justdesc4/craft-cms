@@ -10,7 +10,7 @@ settings:
   allowedKinds:
     - image
   branchLimit: null
-  defaultUploadLocationSource: 'volume:37a0e5a2-c0de-465c-ade2-eeba0f5298fc' # Uploads
+  defaultUploadLocationSource: 'volume:37a0e5a2-c0de-465c-ade2-eeba0f5298fc'
   defaultUploadLocationSubpath: null
   maintainHierarchy: false
   maxRelations: null
@@ -19,7 +19,7 @@ settings:
   restrictFiles: true
   restrictLocation: false
   restrictedDefaultUploadSubpath: null
-  restrictedLocationSource: 'volume:37a0e5a2-c0de-465c-ade2-eeba0f5298fc' # Uploads
+  restrictedLocationSource: 'volume:37a0e5a2-c0de-465c-ade2-eeba0f5298fc'
   restrictedLocationSubpath: null
   selectionLabel: null
   showCardsInGrid: false

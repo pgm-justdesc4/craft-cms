@@ -1,0 +1,18 @@
+{% extends "layouts/base.twig" %}
+
+{% set myEntryQuery = craft.entries.section('music').limit(10) %}
+{% set entries = myEntryQuery.all() %}
+
+{% block body %}
+
+    <h1>Music</h1>
+
+    <ul>
+        {% for entry in entries %}
+            <li>
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

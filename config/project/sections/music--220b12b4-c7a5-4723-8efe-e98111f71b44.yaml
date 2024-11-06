@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 57ccd5b0-2ad0-43d5-a678-3fbaa3506014 # Music
+handle: music
+maxAuthors: 1
+name: Music
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primaire invoer-pagina'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  7ba4af42-140a-4814-a0c1-2466f2442902: # High Bass Audio
+    enabledByDefault: true
+    hasUrls: true
+    template: music/_entry.twig
+    uriFormat: 'music/{slug}'
+type: channel

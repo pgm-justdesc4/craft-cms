@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: artists
+instructions: null
+name: Artists
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:b398a162-e952-40aa-b42c-d82f73d778eb' # Artists
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

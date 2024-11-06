@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 6e4fa518-4f0a-4c4f-af04-077a0b7d2b5c # Product
-handle: products
+  - ba95ab94-907b-4e9c-9217-65ace999d23c # Artists
+handle: artists
 maxAuthors: 1
-name: Products
+name: Artists
 previewTargets:
   -
     __assoc__:
@@ -22,6 +22,6 @@ siteSettings:
   7ba4af42-140a-4814-a0c1-2466f2442902: # High Bass Audio
     enabledByDefault: true
     hasUrls: true
-    template: products/_entry.twig
-    uriFormat: 'products/{slug}'
+    template: artists/_entry.twig
+    uriFormat: 'artists/{slug}'
 type: channel
