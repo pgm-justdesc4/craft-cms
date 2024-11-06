@@ -1,0 +1,44 @@
+fieldLayouts:
+  2fe88bbb-7b5d-425f-80d6-93a97c1097f3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-06T14:20:14+00:00'
+            elementCondition: null
+            fieldUid: 5300f825-33bb-4b39-97c5-1ecffcb3784b # Logo
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2d5b7db3-7b5b-4c66-bead-8d63ce992fc3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-06T15:00:47+00:00'
+            elementCondition: null
+            fieldUid: fe3c5ac6-7b35-43c4-95cd-e229490ff6c6 # Hero Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 06470e2f-3967-4ee3-bf25-4c378db0812a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: c0002772-05f8-41f8-9ea1-ae3d7008e833
+        userCondition: null
+handle: siteSettings
+name: 'Site Settings'
+sortOrder: 1

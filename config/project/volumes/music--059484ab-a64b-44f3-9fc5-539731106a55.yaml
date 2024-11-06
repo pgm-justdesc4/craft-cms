@@ -1,0 +1,50 @@
+altTranslationKeyFormat: null
+altTranslationMethod: none
+fieldLayouts:
+  d2fa07d9-a9a2-4e46-b54f-9aef4f77e94c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-11-06T13:14:13+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 8bb012b4-03d0-456e-8664-2393a4b56797
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: d286fa93-6a4b-461d-8f2b-021a424320f0
+        userCondition: null
+fs: images
+handle: music
+name: Music
+sortOrder: 2
+subpath: music
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

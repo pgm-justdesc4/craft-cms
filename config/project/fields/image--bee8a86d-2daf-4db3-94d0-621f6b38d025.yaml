@@ -1,34 +1,34 @@
 columnSuffix: null
 handle: image
 instructions: null
-name: image
+name: Image
 searchable: false
 settings:
   allowSelfRelations: false
   allowSubfolders: false
   allowUploads: true
-  allowedKinds:
-    - image
+  allowedKinds: null
   branchLimit: null
-  defaultUploadLocationSource: 'volume:37a0e5a2-c0de-465c-ade2-eeba0f5298fc'
+  defaultUploadLocationSource: 'volume:059484ab-a64b-44f3-9fc5-539731106a55' # Music
   defaultUploadLocationSubpath: null
   maintainHierarchy: false
-  maxRelations: null
+  maxRelations: 1
   minRelations: null
   previewMode: full
-  restrictFiles: true
+  restrictFiles: false
   restrictLocation: false
   restrictedDefaultUploadSubpath: null
-  restrictedLocationSource: 'volume:37a0e5a2-c0de-465c-ade2-eeba0f5298fc'
+  restrictedLocationSource: 'volume:059484ab-a64b-44f3-9fc5-539731106a55' # Music
   restrictedLocationSubpath: null
   selectionLabel: null
   showCardsInGrid: false
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  sources: '*'
+  sources:
+    - 'volume:059484ab-a64b-44f3-9fc5-539731106a55' # Music
   targetSiteId: null
-  validateRelatedElements: true
+  validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null
 translationMethod: none

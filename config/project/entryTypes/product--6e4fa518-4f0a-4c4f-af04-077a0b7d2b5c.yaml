@@ -70,7 +70,7 @@ fieldLayouts:
           -
             dateAdded: '2024-10-31T12:13:22+00:00'
             elementCondition: null
-            fieldUid: 0672edec-34b9-46f5-b93d-cccb912b32f7 # image
+            fieldUid: 0672edec-34b9-46f5-b93d-cccb912b32f7
             handle: null
             includeInCards: false
             instructions: null

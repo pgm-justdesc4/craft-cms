@@ -15,7 +15,9 @@
     </p>
 
     <p>
-        <strong>Duration:</strong> {{ entry.duration|date("H:i:s") }}
+        <strong>Duration:</strong> {{ entry.duration}}
     </p>
+
+    <img src="{{ entry.image.one().getUrl('small') }}" alt="{{ entry.image.one().title }}">
 
 {% endblock %}

@@ -1,32 +1,50 @@
-dateModified: 1730858024
+dateModified: 1730905269
 email:
   fromEmail: justin.descan@student.arteveldehs.be
   fromName: 'High Bass Audio'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: /images
 meta:
   __names__:
     2bf8007e-b2a1-46c8-9e63-2be0abc40711: Duration # Duration
     4b893952-6d87-41c4-b19e-981785c6a9dc: Country # Country
-    4f23b27d-151c-4030-9ed0-51b741ba76b5: images # images
     5b2296a4-9ae3-4221-9ee5-306c01962bc7: shortDescription # shortDescription
     5f908a8d-9ffb-4f97-a85a-9174210c5cea: price # price
     6e4fa518-4f0a-4c4f-af04-077a0b7d2b5c: Product # Product
     7ba4af42-140a-4814-a0c1-2466f2442902: 'High Bass Audio' # High Bass Audio
     9c898f0e-b857-4de1-875e-80cfc1fb9482: 'Public Schema' # Public Schema
     57ccd5b0-2ad0-43d5-a678-3fbaa3506014: Music # Music
+    73a3296b-3756-478e-9272-da084108a218: Small # Small
     98c629b7-3c4b-4e2e-b8ab-445a4a4fa830: 'Last name' # Last name
     220b12b4-c7a5-4723-8efe-e98111f71b44: Music # Music
-    0672edec-34b9-46f5-b93d-cccb912b32f7: image # image
     920ce33e-c043-4969-b576-5e4afded41b1: 'Track price' # Track price
     04755d67-9224-46e2-8e98-caa23eab7227: description # description
+    5300f825-33bb-4b39-97c5-1ecffcb3784b: Logo # Logo
     35456dd0-f6a1-4169-85db-ea0fde817d01: 'High Bass Audio' # High Bass Audio
     038450f6-eb5a-4a90-9c72-bbb47e125138: Artists # Artists
+    059484ab-a64b-44f3-9fc5-539731106a55: Music # Music
     2087286d-55f6-4e01-845c-963925c89ed0: 'First name' # First name
     af4bc6f6-918b-48d8-9315-fe69f0d36189: 'Artist name' # Artist name
     b398a162-e952-40aa-b42c-d82f73d778eb: Artists # Artists
     ba95ab94-907b-4e9c-9217-65ace999d23c: Artists # Artists
+    bee8a86d-2daf-4db3-94d0-621f6b38d025: Image # Image
+    c224a3d5-da70-4d75-b652-9411bff6929a: 'Site Settings' # Site Settings
+    cd6e6a1f-8874-419e-9f8d-7f2556ea12a1: Simple # Simple
     d450168d-29ee-4095-9759-f40e2d4c6ef6: shortDescription # shortDescription
     ebbb3105-c3db-4c60-9a26-bf577df61ad5: 'Release date' # Release date
+    fe3c5ac6-7b35-43c4-95cd-e229490ff6c6: 'Hero Image' # Hero Image
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true

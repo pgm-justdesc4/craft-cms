@@ -1,6 +1,10 @@
 {% extends "layouts/base.twig" %}
 
 {% block body %}
-    <h1>Home</h1>
-    <p>Welcome to the home page</p>
+        {% set siteSettings = craft.app.getGlobals().getSetByHandle('siteSettings') %}
+            {% if siteSettings and siteSettings.heroImage.one() %}
+                <figure class="hero">
+                    <img src="{{ siteSettings.heroImage.one().url }}" alt="Website Logo">
+                </figure>
+            {% endif %}
 {% endblock %}

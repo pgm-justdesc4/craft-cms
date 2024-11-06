@@ -9,20 +9,27 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/main.css?v={{ now | date('U') }}" />
     {% endblock %}
   </head>
   <body>
     <header>
-      <div class="brand">{{ siteName }}</div>
+      <div class="brand">
+        {% set siteSettings = craft.app.getGlobals().getSetByHandle('siteSettings') %}
+            {% if siteSettings and siteSettings.logo.one() %}
+                <a href="/" class="nav__logo">
+                    <img src="{{ siteSettings.logo.one().url }}" alt="Website Logo">
+                </a>
+            {% endif %}
+      </div>
         <nav>
             <ul>
-            <li><a href="/">Home</a></li>
             <li><a href="/music">Music</a></li>
             <li><a href="/artists">Artists</a></li>
             </ul>
         </nav>
     </header>
-    <div class="container">{% block body %} {% endblock %}</div>
+    {% block body %} {% endblock %}
   </body>
 </html>

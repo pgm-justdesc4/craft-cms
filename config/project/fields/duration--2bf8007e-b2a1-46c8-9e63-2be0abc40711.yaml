@@ -4,9 +4,13 @@ instructions: null
 name: Duration
 searchable: false
 settings:
-  max: '10:00'
-  min: '00:00'
-  minuteIncrement: 5
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'mm:ss'
+  uiMode: normal
 translationKeyFormat: null
 translationMethod: none
-type: craft\fields\Time
+type: craft\fields\PlainText
