@@ -1,4 +1,6 @@
 {% extends "layouts/base.twig" %}
+{% set myEntryQuery = craft.entries.section('music').relatedTo(entry) %}
+{% set myEntry = myEntryQuery.all() %}
 
 {% block body %}
 
@@ -15,5 +17,15 @@
     <p>
         <strong>Country:</strong> {{ entry.country }}
     </p>
+
+    <p>
+        <strong>Tracks:</strong>
+        <ul>
+            {% for track in myEntry %}
+                <li><a href="{{ track.url }}">{{ track.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </p>
+
 
 {% endblock %}
