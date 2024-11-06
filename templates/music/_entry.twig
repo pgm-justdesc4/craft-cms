@@ -1,7 +1,21 @@
 {% extends "layouts/base.twig" %}
+{% set entryArtists = entry.artists.all() %}
 
 {% block body %}
 
     <h1>{{ entry.title }}</h1>
+
+    <p>
+        <strong>Artists:</strong>
+        <ul>
+            {% for artist in entryArtists %}
+                <li><a href="{{ artist.url }}">{{ artist.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </p>
+
+    <p>
+        <strong>Duration:</strong> {{ entry.duration|date("H:i:s") }}
+    </p>
 
 {% endblock %}
