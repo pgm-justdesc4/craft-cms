@@ -4,15 +4,17 @@
 {% set entries = myEntryQuery.all() %}
 
 {% block body %}
+    <div class="container artists">
+        <h1>Artists</h1>
 
-    <h1>Artists</h1>
-
-    <ul>
-        {% for entry in entries %}
-            <li>
-                <a href="{{ entry.url }}">{{ entry.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
-
+        <ul>
+            {% for entry in entries %}
+                <li>
+                    <a href="{{ entry.url }}">
+                        <p>{{ entry.title }}</p>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 {% endblock %}

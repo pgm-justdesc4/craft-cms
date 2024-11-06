@@ -14,6 +14,7 @@ body {
   max-width: 90rem;
   width: 100%;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
 ul {
@@ -181,7 +182,7 @@ MUSIC DETAIL PAGE
 
 .music-detail a {
   text-decoration: underline;
-  color: #5dff9e;
+  color: #8efcba;
 }
 
 .music-detail a:hover {
@@ -190,4 +191,121 @@ MUSIC DETAIL PAGE
 
 .music-detail__info {
   text-align: center;
+}
+
+.music-detail__artists a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+/*
+=================
+ARTISTS PAGE
+=================
+*/
+
+.artists h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3rem 0;
+  font-size: 2.5rem;
+}
+
+.artists ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.artists li {
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #e9e9e9;
+}
+
+.artists li:hover {
+  background: #5dff9e;
+  border: 1px solid #5dff9e;
+}
+
+.artists li:hover a {
+  color: #131313;
+}
+
+.artists a {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #e9e9e9;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.artists a p {
+  flex-grow: 1;
+}
+
+/*
+=================
+ARTIST DETAIL PAGE
+=================
+*/
+
+.artist-detail .back {
+  display: block;
+  margin-bottom: 1rem;
+  color: #5dff9e;
+  text-decoration: none;
+}
+
+.artist-detail .back:hover {
+  text-decoration: underline;
+}
+
+.artist-detail {
+  text-align: center;
+}
+
+.artist-detail h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3rem 0;
+  font-size: 3.25rem;
+}
+
+.artist-detail p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.artist-detail strong {
+  font-weight: bold;
+}
+
+.artist-detail .tracks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.artist-detail .tracks a {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e9e9e9;
+  text-decoration: none;
+  color: #e9e9e9;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.artist-detail .tracks a:hover {
+  background: #5dff9e;
+  border: 1px solid #5dff9e;
+  color: #131313;
+}
+
+.artist-detail .back {
+  text-align: start;
+  font-size: 1.2rem;
 }

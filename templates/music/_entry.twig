@@ -3,7 +3,7 @@
 
 {% block body %}
     <div class="container music-detail">
-        <a href="/music" class="back"> ← Back to Music</a>
+        <a href="/music" class="back"> ← See all Music</a>
         <figure>
             <img src="{{ entry.image.one().getUrl('small') }}" alt="{{ entry.image.one().title }}">
         </figure>
@@ -13,7 +13,7 @@
             <p>{{ entry.description }}</p>
 
             <ul>
-                <li>
+                <li class="music-detail__artists">
                     <strong>Artists:</strong>
                         <br>
                         {% for artist in entryArtists %}

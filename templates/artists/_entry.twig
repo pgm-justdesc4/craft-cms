@@ -3,29 +3,35 @@
 {% set myEntry = myEntryQuery.all() %}
 
 {% block body %}
+    <div class="container artist-detail">
+        <a href="/artists" class="back"> ← See all artists</a>
+        <h1>{{ entry.title }}</h1>
 
-    <h1>{{ entry.title }}</h1>
+        <p>
+            <strong>First name:</strong>
+            <br>
+            {{ entry.firstName }}
+        </p>
 
-    <p>
-        <strong>First name:</strong> {{ entry.firstName }}
-    </p>
+        <p>
+            <strong>Last name:</strong>
+            <br>
+            {{ entry.lastName }}
+        </p>
 
-    <p>
-        <strong>Last name:</strong> {{ entry.lastName }}
-    </p>
+        <p>
+            <strong>Country:</strong>
+            <br>
+            {{ entry.country }}
+        </p>
 
-    <p>
-        <strong>Country:</strong> {{ entry.country }}
-    </p>
-
-    <p>
-        <strong>Tracks:</strong>
-        <ul>
-            {% for track in myEntry %}
-                <li><a href="{{ track.url }}">{{ track.title }}</a></li>
-            {% endfor %}
-        </ul>
-    </p>
-
-
+        <p>
+            <div class="tracks">
+            <strong>Tracks:</strong>
+                {% for track in myEntry %}
+                    <a href="{{ track.url }}">{{ track.title }}</a>
+                {% endfor %}
+            </div>
+        </p>
+    </div>
 {% endblock %}
