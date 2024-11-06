@@ -31,5 +31,8 @@
         </nav>
     </header>
     {% block body %} {% endblock %}
+    <footer>
+      <p>&copy; {{ siteName }} -  {{ now | date('Y') }}</p>
+    </footer>
   </body>
 </html>

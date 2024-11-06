@@ -2,22 +2,35 @@
 {% set entryArtists = entry.artists.all() %}
 
 {% block body %}
+    <div class="container music-detail">
+        <a href="/music" class="back"> ← Back to Music</a>
+        <figure>
+            <img src="{{ entry.image.one().getUrl('small') }}" alt="{{ entry.image.one().title }}">
+        </figure>
+        <div class="music-detail__info">
+            <h1>{{ entry.title }}</h1>
 
-    <h1>{{ entry.title }}</h1>
+            <p>{{ entry.description }}</p>
 
-    <p>
-        <strong>Artists:</strong>
-        <ul>
-            {% for artist in entryArtists %}
-                <li><a href="{{ artist.url }}">{{ artist.title }}</a></li>
-            {% endfor %}
-        </ul>
-    </p>
-
-    <p>
-        <strong>Duration:</strong> {{ entry.duration}}
-    </p>
-
-    <img src="{{ entry.image.one().getUrl('small') }}" alt="{{ entry.image.one().title }}">
-
+            <ul>
+                <li>
+                    <strong>Artists:</strong>
+                        <br>
+                        {% for artist in entryArtists %}
+                            <a href="{{ artist.url }}">{{ artist.title }}</a>{% if not loop.last %} / {% endif %}
+                        {% endfor %}
+                </li>
+                <li>
+                    <strong>Duration:</strong>
+                    <br>
+                    {{ entry.duration }} min.
+                </li>
+                <li>
+                    <strong>Release date:</strong>
+                    <br>
+                    {{ entry.releaseDate | date('F j, Y') }}
+                </li>
+            </ul>
+        </div>
+    </div>
 {% endblock %}
