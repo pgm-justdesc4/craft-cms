@@ -38,7 +38,7 @@ fieldLayouts:
           -
             dateAdded: '2024-10-31T12:13:22+00:00'
             elementCondition: null
-            fieldUid: 5b2296a4-9ae3-4221-9ee5-306c01962bc7 # shortDescription
+            fieldUid: 5b2296a4-9ae3-4221-9ee5-306c01962bc7
             handle: null
             includeInCards: false
             instructions: null
@@ -86,7 +86,7 @@ fieldLayouts:
           -
             dateAdded: '2024-10-31T12:13:22+00:00'
             elementCondition: null
-            fieldUid: 5f908a8d-9ffb-4f97-a85a-9174210c5cea # price
+            fieldUid: 5f908a8d-9ffb-4f97-a85a-9174210c5cea
             handle: null
             includeInCards: false
             instructions: null

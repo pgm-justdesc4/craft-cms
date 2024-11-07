@@ -14,7 +14,6 @@
     <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
     <link rel="shortcut icon" href="/favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
 
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/main.css?v={{ now | date('U') }}" />
@@ -39,7 +38,7 @@
     </header>
     {% block body %} {% endblock %}
     <footer>
-      <p>&copy; {{ siteName }} -  {{ now | date('Y') }}</p>
+      <p>&copy; {{ now | date('Y') }}, {{ siteName }}</p>
     </footer>
   </body>
 </html>
