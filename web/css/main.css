@@ -298,13 +298,13 @@ ARTIST DETAIL PAGE
   font-weight: bold;
 }
 
-.artist-detail .tracks {
+.artist-detail .artist-detail__music {
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
 }
 
-.artist-detail .tracks a {
+.artist-detail .artist-detail__music a {
   margin: 10px 0;
   padding: 10px;
   border-radius: 5px;
@@ -315,7 +315,7 @@ ARTIST DETAIL PAGE
   font-weight: 700;
 }
 
-.artist-detail .tracks a:hover {
+.artist-detail .artist-detail__music a:hover {
   background: #5dff9e;
   border: 1px solid #5dff9e;
   color: #131313;

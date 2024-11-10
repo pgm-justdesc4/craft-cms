@@ -23,7 +23,11 @@
                 <li>
                     <strong>Duration:</strong>
                     <br>
-                    {{ entry.duration }} min.
+                    {% if not entry.duration %}
+                        Album release.
+                    {% else %}
+                        {{ entry.duration }} min.
+                    {% endif %}
                 </li>
                 <li>
                     <strong>Release date:</strong>
